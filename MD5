@@ -1,0 +1,16 @@
+6078753aa3cf4faac07ca2b2527ff5bf *DESCRIPTION
+661c8619bb3d6f6bca6e874574b4bb37 *NAMESPACE
+e69213f67ac10f86e891827e7b22318c *NEWS.md
+0b0aaf08756a3904d61efc2f4a643145 *R/examples/dataset.imputation.example.R
+d88b52458f0713f0765acbaec532ca8c *R/examples/new.patient.imputation.example.R
+bc83e602bb98a876cbd1d1357d07c126 *R/imputation.wknn.mi.R
+978460e77d768b67e6d0cc7352acf27e *R/new.patient.R
+d5f8416386e675e748da751eb128952a *R/patient.data.R
+98e66c91e66fb8728d9c0014770aa633 *README.md
+8e0fac4697d2c7d0d324bcb9c4beb6fc *data/new.patient.RData
+56b2f9d633bec216460535116ac06514 *data/patient.data.RData
+57a2ca7ec7390e27182c1ab8e55109a4 *man/impute.subject.Rd
+beab0c47bc4d494308e8a613a1f0b87d *man/impute.wknn.Rd
+4d94158afa7e75192426899e7e80caa2 *man/new.patient.Rd
+4a847ef12849439f1f207a1d302400dc *man/patient.data.Rd
+d4bb3b39ed741d9a336a5e7de03e0c89 *man/wkNNMI.Rd

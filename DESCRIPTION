@@ -1,0 +1,24 @@
+Package: wkNNMI
+Type: Package
+Title: A Mutual Information-Weighted k-NN Imputation Algorithm
+Version: 1.0.0
+Date: 2020-01-20
+Authors@R: c(
+  person("Sebastian", "Daberdaku", email = "sebastian.daberdaku@unipd.it", role = c("aut", "cre")),
+  person("Erica", "Tavazzi", email = "erica.tavazzi@phd.unipd.it", role = "aut"),
+  person("Systems Biology and Bioinformatics Group", "http://sysbiobig.dei.unipd.it/", role="cph"))
+Description: Implementation of an adaptive weighted k-nearest neighbours (wk-NN) imputation algorithm for clinical register data developed to explicitly handle missing values of continuous/ordinal/categorical and static/dynamic features conjointly. For each subject with missing data to be imputed, the method creates a feature vector constituted by the information collected over his/her first 'window_size' time units of visits. This vector is used as sample in a k-nearest neighbours procedure, in order to select, among the other patients, the ones with the most similar temporal evolution of the disease over time. An ad hoc similarity metric was implemented for the sample comparison, capable of handling the different nature of the data, the presence of multiple missing values and include the cross-information among features.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: infotheo, foreach
+NeedsCompilation: no
+Packaged: 2020-01-20 11:25:34 UTC; sebastian
+Author: Sebastian Daberdaku [aut, cre],
+  Erica Tavazzi [aut],
+  Systems Biology and Bioinformatics Group http://sysbiobig.dei.unipd.it/
+    [cph]
+Maintainer: Sebastian Daberdaku <sebastian.daberdaku@unipd.it>
+Repository: CRAN
+Date/Publication: 2020-01-31 14:20:02 UTC
